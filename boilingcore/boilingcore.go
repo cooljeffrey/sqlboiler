@@ -389,7 +389,7 @@ func (s *State) initDBInfo(config map[string]interface{}) error {
 	}
 
 	if err := checkPKeys(dbInfo.Tables); err != nil {
-		return err
+		//return err
 	}
 
 	s.Schema = dbInfo.Schema
